@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Powerful Players</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="header1">
+            <h1>Powerful Players</h1>
+            <div id="MenuClose">
+                <ion-icon name="grid-outline"></ion-icon>
+            </div>
+            <div id="DarkLight">
+                <ion-icon name="moon-outline"></ion-icon>
+            </div>
+        </header>
+        <div class="fundo1">
+            <div class="box">
+                <p class="team">Team</p>
+            </div>
+            <div id="menu" class="menuh">
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">history</a>
+                    <a href="">championships</a>
+                    <a href="">Flow us in Game</a>
+                    <a href="">Contact</a>
+                </nav>
+            </div>
+            <img class="perfil" id="kirito" src="assets/img/1b026113-1620-438f-bb08-9a5bbd7f85b1.jpg" alt="kirito perfil">
+            
+            <p class="nick" id="knick">kirito_k1</p>
+           
+            <img class="perfil" id="ashurinhaaaa" src="assets/img/520d17f5-2d38-4556-a4e1-d5c794eeade1.jpg" alt="ashurinhaaaa perfil">
+          
+            <p class="nick" id="anick">ashurinhaaa</p>
+         
+            <img class="perfil" id="shini" src="assets/img/a2547068-8112-4e60-8fc4-0f04640049ea.jpg" alt="shini perfil">
+          
+            <p class="nick" id="snick">꧁☬shini☬꧂</p>
+          
+            <img class="perfil" id="indrinhaaaa" src="assets/img/fbef327c-09e4-4a3a-9ef1-da7896cc8eaa.jpg" alt="indrinhaaaa perfil">
+          
+            <p class="nick" id="inick">indrinhaaa</p>
+          
+            <img class="perfil" id="M" src="assets/img/c22fb38b-cc5e-478e-aa40-d4ae1428f94d.jpg" alt="M perfil">
+           
+            <p class="nick" id="mnick">Mㅤㅤ</p>
+        </div>
+        <div class="fundo2">
+            <p class="player" id="playerk" >EXP</p>
+            <p class="player" id="playera" >JUNGLE</p>
+            <p class="player" id="players" >GOLD</p>
+            <p class="player" id="playerm" >MID</p>
+            <p class="player" id="playeri" >ROTAÇÃO</p>
+        </div>
+        <div class="fundo3">
+            <p class="pergunta">Quer entrar para o clã?</p>
+            <div class="box2"></div>
+            <p class="rodape">Powerful Players te espera!</p>
+        </div>
+
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="js/all.min.js"></script>
+        <script>
+            var meenu = document.getElementById("MenuClose");
+            var menu = document.getElementById("menu");
+
+            meenu.addEventListener('click',function(){
+                if (menu.classList.contains('menuh')) {
+                    menu.classList.add('menu')
+                    menu.classList.remove('menuh')
+                } else {
+                    menu.classList.add('menuh')
+                    menu.classList.remove('menu')
+                }
+                
+            })
+
+
+
+
+
+        </script>
+    </body>
+</html>

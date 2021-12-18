@@ -1,0 +1,285 @@
+#MenuClose
+{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 5px;
+}
+#DarkLight
+{
+    font-size: 40px;
+    margin-left: 67%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+h1
+{
+    color: black;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+body
+{
+    margin: 0px;
+}
+header
+{
+    margin: 0px;
+    display: flex;
+    background-color: crimson;
+    border-bottom: solid 20px;
+    border-color: black;
+}
+.fundo1
+{
+    background-image: url(assets/img/3999897c-f969-4351-ac70-ff9283671a2e.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    padding-bottom: 800px;
+    display: flex;
+    margin-top: 0px;
+    border-bottom: solid 200px;
+    border-color: black;
+
+}
+.box
+{
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    
+}
+.team
+{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black 2px 2px 5px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.perfil
+{
+    border: solid 4px;
+    border-color: black;
+    height: 330px;
+    width: 350px;
+    box-shadow: black 5px 5px 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+}
+.perfil:hover
+{
+    transform: scale(1.10);
+}
+#kirito
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#ashurinhaaaa
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+#shini
+{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 900px;
+}
+#indrinhaaaa
+{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 300px;
+}
+#M
+{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 750px;
+    border-color: white;
+}
+.nick
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    text-shadow: black 4px 4px 3px;
+}
+#knick
+{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 210px;
+}
+#anick
+{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 560px;
+}
+#snick
+{
+    position: absolute;
+    margin-top: 530px;
+    margin-left: 930px;
+}
+#inick
+{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 385px;
+}
+#mnick
+{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 910px;
+}
+.fundo2
+{
+    background-image: url(assets/img/Imperial_Sanctuary_Map.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    padding-bottom: 800px;
+    display: flex;
+    margin-top: 0px;
+    border-top: solid 20px;
+    border-bottom: solid 20px;
+    border-color: crimson;
+    margin-bottom: 0px;
+}
+.fundo3
+{
+    margin: 0px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+.pergunta
+{
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+.box2
+{
+    display: inline;
+    background-color: white;
+    padding-bottom: 200px;
+    padding-right: 600px;
+    margin-left: 27%;
+}
+.rodape
+{
+    color: crimson;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 250px;
+    font-family: 'Roboto', sans-serif;
+}
+.player
+{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    border: solid 3px;
+    border-radius: 360px;
+    border-color: black;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.582) 5px 5px 4px;
+    transition: 1s;
+    cursor: pointer;
+    color: transparent;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+.player:hover
+{
+    color: crimson;
+    transform: scale(1.20);
+}
+#playerk
+{
+    background-image: url(assets/img/1b026113-1620-438f-bb08-9a5bbd7f85b1.jpg);
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 950px;
+}
+
+#players
+{
+    background-image: url(assets/img/a2547068-8112-4e60-8fc4-0f04640049ea.jpg);
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 370px;
+}
+#playera
+{
+    background-image: url(assets/img/520d17f5-2d38-4556-a4e1-d5c794eeade1.jpg);
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 580px;
+}
+#playerm
+{
+    background-image: url(assets/img/c22fb38b-cc5e-478e-aa40-d4ae1428f94d.jpg);
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 630px;
+    border-color: black;
+}
+#playeri
+{
+    background-image: url(assets/img/fbef327c-09e4-4a3a-9ef1-da7896cc8eaa.jpg);    
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 420px;
+}
+a
+{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 360px;
+}
+a:hover
+{
+    color: black;
+    background-color: white;
+}
+.menu
+{
+    background-color: black;
+    z-index: 100;
+    text-align: center;
+    position: absolute;
+    height: 1200px;
+    width: 100%;
+    transition-duration: 1s;
+}
+.menuh
+{
+    transition-duration: 1s;
+    display: none;
+}
