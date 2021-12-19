@@ -42,7 +42,7 @@ header
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     padding-bottom: 800px;
-    padding-right: 100%;
+    width: 100%;
     display: flex;
     margin-top: 0px;
     border-bottom: solid 200px;
